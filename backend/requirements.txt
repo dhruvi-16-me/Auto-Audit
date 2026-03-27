@@ -1,0 +1,19 @@
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+python-multipart==0.0.20
+PyMuPDF==1.25.3
+groq==0.13.1
+pydantic==2.10.6
+pydantic-settings==2.7.1
+python-dotenv==1.0.1
+httpx==0.28.1
+
+# Multi-agent orchestration
+langgraph==0.2.70
+langchain-core==0.3.29
+
+# Retry / resilience
+tenacity==9.0.0
+
+# Vector store for duplicate detection
+chromadb==0.6.3
