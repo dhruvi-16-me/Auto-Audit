@@ -371,7 +371,19 @@ Auto-Audit/
 - [x] Free-tier only — zero cost to run and demo
 
 ---
+---
 
-## Team
+## Demo Video
+
+Watch AutoAudit AI in action — full 3-minute walkthrough showing invoice upload, agent pipeline, violation detection, auto-fix, and error recovery.
+
+[Watch Demo Video on Google Drive](https://drive.google.com/file/d/1rexrb4vlKNr06jKCMUso2l9_-K_CrjXe/view?usp=sharing)
+
+
+## Team Members
+ Dhruvi Srivastava
+ Shashank Gupta
+ Nishita Goyal
+ Gunika Kharbanda
 
 Built for **ET AI Hackathon 2026** | Track 3: Cost Intelligence & Autonomous Action
