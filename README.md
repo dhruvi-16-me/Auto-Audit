@@ -1,3 +1,5 @@
+![AutoAudit AI Dashboard](docs/Image%201.jpeg)
+
 # AutoAudit AI
 ### Autonomous Financial Compliance — ET AI Hackathon 2026 | Track 3: Cost Intelligence & Autonomous Action
 
@@ -87,7 +89,7 @@ Every quarter, Indian finance teams manually audit hundreds of invoices. The res
 ┌──────────────────────────────────────────────┐
 │           FRONTEND  (Next.js 14)             │
 │  Drag-drop upload │ Real-time agent log (WS) │
-│  Results dashboard │ Error recovery demo      │
+│  Results dashboard │ Error recovery demo     │
 │  Deployed: Vercel                            │
 └─────────────────────┬────────────────────────┘
                       │  REST API + WebSocket
@@ -106,7 +108,7 @@ Every quarter, Indian finance teams manually audit hundreds of invoices. The res
 │  • False pos.   → CFO feedback loop          │
 │                                              │
 │  Deployed: Railway                           │
-└──────┬──────────────────────┬───────────────┘
+└──────┬──────────────────────┬────────────────┘
        │                      │
 ┌──────▼──────┐        ┌──────▼──────┐
 │  Groq API   │        │  ChromaDB   │
@@ -199,6 +201,21 @@ Per Year:     302 hours saved = 37 working days
 ```
 
 ---
+---
+
+## Sample — GST Mismatch Detection
+
+The image below shows a real violation caught by AutoAudit AI — a vendor charged **28% GST instead of the correct 18%** on an electronics invoice. The system detected it, investigated the root cause, and auto-corrected the amount in 3 seconds.
+
+![GST Mismatch Detected by AutoAudit](docs/Image%202.jpeg)
+
+> **Violation:** Electronics invoiced at 28% GST instead of 18%
+> **Financial Impact:** Rs 25,500 overcharged
+> **Action:** Auto-corrected by Agent 4 with 87% confidence
+> **Time taken:** 3 seconds — zero human involvement
+
+
+
 
 ## Setup — Run It Yourself in 10 Minutes
 
