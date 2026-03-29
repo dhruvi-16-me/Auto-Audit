@@ -154,11 +154,11 @@ Open http://localhost:3000 and upload any invoice PDF.
 
 Sample test invoices are in `backend/data/sample_invoices/`
 
-|      Invoice     |       Violation             |   Expected Result   |
-|------------------|-----------------------------|-------====----------|
-| GST_MISMATCH.pdf | 28% charged instead of 18%  | Auto-fixed          |
-| OVER_LIMIT.pdf   | ₹5,31,000 exceeds ₹3L limit | Escalated to CFO    |
-| DUPLICATE.pdf    | Same vendor + amount + date | Flagged as duplicate|
+| Invoice | Violation | Expected Result |
+|---------|-----------|-----------------|
+| GST_MISMATCH.pdf | 28% charged instead of 18% | Auto-fixed |
+| OVER_LIMIT.pdf | ₹5,31,000 exceeds ₹3L limit | Escalated to CFO |
+| DUPLICATE.pdf | Same vendor + amount + date | Flagged as duplicate |
 
 ---
 
